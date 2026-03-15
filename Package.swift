@@ -27,7 +27,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/htht2121aa003300/NumPy-iOS.git", .branch("main")),
-        .package(url: "https://github.com/htht2121aa003300/LAPACKE-iOS.git", .branch("main")),
+        .package(url: "https://github.com/kewlbear/LAPACKE-iOS.git", .exact("0.0.20210414")),
         .package(url: "https://github.com/kewlbear/BLAS-LAPACK-AppStore-Workaround.git", .branch("main")),
     ],
     targets: [
